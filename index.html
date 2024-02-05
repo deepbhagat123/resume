@@ -70,6 +70,10 @@
     .rightsection {
       width: 80%;
     }
+    .leftsection1{
+        width: 80%;
+        padding: 100px;
+    }
     .purple {
       color: rgb(162, 87, 233);
     }
@@ -118,34 +122,77 @@
       color: gray;
       font-size: 9px;
     }
-    footer{
+    footer {
       background-color: rgb(14, 18, 55);
       height: 123px;
     }
 
-    .footer{
+    .footer {
       display: flex;
       padding: 23px 122px;
       justify-content: space-evenly;
-
     }
-    .footer-second{
+    .footer-second {
       display: flex;
       padding: 23px 122px;
       justify-content: space-evenly;
-      
     }
-    .footer ul{
+    .footer ul {
       list-style: none;
     }
-    .footer >div{
+    .footer > div {
       width: 323px;
     }
-    .footers-right{
+    .footers-right {
       text-align: center;
       color: gray;
       padding: 12px;
     }
+    .about{
+        display: flex;
+        flex-direction: row;
+    }
+    .about-img img{
+    height:500px;
+    width:450px;
+    margin-left: 20px;
+    border-radius:50%;
+    border:7px solid  #3145b5;
+}
+.about-img{
+    padding-top: 50px;
+    margin-top:0;
+    margin-bottom:130px; 
+}
+.about-text{
+    /* margin-bottom: 80rem; */
+    padding-left: 120px;
+    padding-top:50px;
+    display: inline-block;
+
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+
+}
+.about-text h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    /* line-height: 1.7; */
+    margin: 15px 0 30px;
+}
+.about-text p{
+    padding-bottom: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    /* line-height: 1.4;
+    margin-bottom:4rem; */
+}
+
   </style>
   <body>
     <header>
@@ -176,6 +223,27 @@
         </div>
       </section>
       <hr />
+    
+      <div class="about" id="about">
+        <div class="about-img">
+            <img src="Aboutphoto.png.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, et! Facilis cumque, enim ipsa dolores
+                <br>temporibus excepturi facere soluta exercitationem adipisci vitae velit quia mollitia quis ut libero
+                <br>quidem ullam, dolor quo. Corrupti iste minus maxime fuga consectetur, delectus porro natus excepturi
+                <br>vero,ut impedit nihil atque. Placeat, quibusdam omnis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aperiam nostrum, similique aliquid
+                doloribus suscipit? Nobis modi illo nemo unde cumque vitae ipsa enim commodi voluptatum, praesentium
+                atque magni quibusdam.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eum nulla odit dolor unde, quasi eius
+                quis accusamus sapiente iusto ex minus culpa iure. Molestiae quisquam dignissimos quo odio at!
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </div>
       <section class="secondsection">
         <span class="textgray"> What I have done so far</span>
         <h1>Work Experience</h1>
@@ -185,15 +253,13 @@
             <img class="image-top" src="developer.png" alt="" />
             <div class="vertical-title">Acadmics</div>
             <div class="vertical-desc">
-                 I have done my schooling from SVP shivpuri 
+              I have done my schooling from SVP shivpuri
             </div>
           </div>
           <div class="vertical">
             <img class="image-top" src="developer.png" alt="" />
             <div class="vertical-title">Achivments</div>
-            <div class="vertical-desc">
-                 Silver Medal in State 
-            </div>
+            <div class="vertical-desc">Silver Medal in State</div>
           </div>
           <div class="vertical">
             <img class="image-top" src="developer.png" alt="" />
